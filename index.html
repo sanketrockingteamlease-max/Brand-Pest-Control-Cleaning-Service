@@ -1,42 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BRAND Pest Control & Cleaning Services | Mumbai Pune</title>
-<meta name="description" content="BRAND Pest Control - Professional pest control & cleaning for homes, offices, shops. Cockroach, Termite, Ant, Rodent Control in Mumbai & Pune. Call 9664368992">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BRAND Pest Control & Cleaning Services</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',Arial,sans-serif}
-body{background:#f8fafc;color:#1e293b}
-.top-strip{background:#f1f5f9;text-align:center;padding:6px;font-size:11px;color:#64748b;letter-spacing:1px;font-weight:600}
-.header{background:white;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:999;box-shadow:0 1px 3px rgba(0,0,0,0.08)}
-.logo{display:flex;align-items:center;gap:8px;font-weight:800;font-size:12px;line-height:1.1;color:#0f172a}
-.logo img{width:36px;height:36px;object-fit:contain}
-.nav{display:none}
-.btn-red{background:#ef4444;color:white;padding:8px 14px;border-radius:6px;text-decoration:none;font-weight:700;font-size:12px}
-.hero{background:#0f2040;color:white;padding:30px 16px 40px;display:flex;flex-direction:column;gap:20px}
-.hero-left h4{color:#a3ff9d;font-size:10px;letter-spacing:1.5px;background:rgba(163,255,157,0.15);display:inline-block;padding:5px 10px;border-radius:20px;margin-bottom:12px}
-.hero-left h1{font-size:28px;line-height:1.2;font-weight:800}
-.hero-left h1 span{color:#a3ff9d}
-.hero-left p{color:#cbd5e1;font-size:13px;margin:14px 0;line-height:1.6}
-.hero-btns{display:flex;gap:10px;margin:18px 0;flex-wrap:wrap}
-.btn-quote{background:#ef4444;color:white;padding:10px 18px;border-radius:6px;text-decoration:none;font-weight:700;font-size:13px}
-.btn-explore{background:transparent;border:1px solid #334155;color:white;padding:10px 18px;border-radius:6px;text-decoration:none;font-size:13px}
-.hero-badges{display:flex;gap:12px;font-size:11px;color:#94a3b8;margin-top:10px;flex-wrap:wrap}
-.hero-right{background:white;border-radius:16px;padding:10px;display:flex;align-items:center;justify-content:center}
-.hero-right img{width:100%;max-width:280px;object-fit:contain}
-.services-section{padding:30px 16px;background:#f8fafc}
-.badge{display:block;text-align:center;margin:0 auto 10px;background:#fee2e2;color:#ef4444;font-size:10px;font-weight:700;padding:5px 10px;border-radius:20px;width:fit-content;letter-spacing:1px}
-.services-section h2{text-align:center;font-size:22px;font-weight:800;color:#0f172a;line-height:1.3}
-.services-section .sub{text-align:center;color:#64748b;font-size:12px;margin:10px 0 20px}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-@media(min-width:700px){.grid{grid-template-columns:1fr 1fr 1fr}.hero{flex-direction:row;align-items:center;padding:40px 30px}.hero-left{flex:1}.hero-right{flex:0.8}}
-.card{background:white;border-radius:12px;padding:16px;box-shadow:0 2px 8px rgba(0,0,0,0.04);border:1px solid #f1f5f9}
-.card .icon{width:32px;height:32px;background:#f1f5f9;border-radius:8px;display:flex;align-items:center;justify-content:center;margin-bottom:10px;font-size:16px}
-.card h3{font-size:13px;font-weight:700;margin-bottom:6px;color:#0f172a}
-.card p{font-size:11px;color:#64748b;line-height:1.5}
-.footer{background:#0f172a;color:#94a3b8;text-align:center;padding:20px 16px;font-size:11px;line-height:1.6}
-.footer b{color:white}
-.float-wa{position:fixed;bottom:20px;right:15px;background:#25D366;color:white;width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:24px;text-decoration:none;z-index:9999;box-shadow:0 4px 12px rgba(0,0,0,0.3)}
-.float-call{position:fixed;bottom:20px;left:15px;background:#0f2040;color:white;width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:
+body{font-family:Arial;margin:0;background:#f8f9fa}
+.header{background:white;padding:15px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 5px #0001}
+.logo{font-weight:800;color:#0f2040;font-size:14px}
+.btn{background:#ef4444;color:white;padding:8px 15px;border-radius:5px;text-decoration:none;font-weight:bold}
+.hero{background:#0f2040;color:white;padding:40px 20px;text-align:center}
+.hero h1{font-size:28px;margin:10px 0}
+.hero h1 span{color:#a3ff9d}
+.hero p{color:#cbd5e1;font-size:14px}
+.box{background:white;margin:15px;padding:15px;border-radius:10px;box-shadow:0 2px 5px #0001}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.footer{background:#0f172a;color:#94a3b8;text-align:center;padding:20px;font-size:12px}
+.whatsapp{position:fixed;bottom:20px;right:15px;background:#25D366;color:white;padding:12px 18px;border-radius:30px;text-decoration:none;font-weight:bold}
+.call{position:fixed;bottom:20px;left:15px;background:#0f2040;color:white;padding:12px 18px;border-radius:30px;text-decoration:none;font-weight:bold}
+</style>
+</head>
+<body>
+
+<div class="header">
+<div class="logo">BRAND Pest Control<br>& Cleaning Services</div>
+<a href="https://wa.me/919664368992" class="btn">Get Free Quote</a>
+</div>
+
+<div class="hero">
+<h4 style="color:#a3ff9d;font-size:11px;letter-spacing:1px">PROTECTION • CLEANING • PEACE OF MIND</h4>
+<h1>Complete <span>Pest Control & Cleaning</span> Solutions</h1>
+<p>Safe, effective and reliable professional services for homes, offices, shops</p>
+<br>
+<a href="https://wa.me/919664368992" style="background:#ef4444;color:white;padding:12px 20px;border-radius:5px;text-decoration:none;font-weight:bold">Get Free Quote</a>
+</div>
+
+<div style="padding:20px">
+<h2 style="text-align:center;font-size:20px">Our Professional Services</h2>
+<p style="text-align:center;color:#64748b;font-size:12px;margin:10px 0">No prices - Call for best quote</p>
+
+<div class="grid">
+<div class="box"><b>🪳 Cockroach Control</b><br><span style="font-size:12px;color:#64748b">Professional gel treatment for home & kitchen</span></div>
+<div class="box"><b>🐜 Ant Control</b><br><span style="font-size:12px;color:#64748b">Targeted solution for ant infestations</span></div>
+<div class="box"><b>🛡️ Termite Control</b><br><span style="font-size:12px;color:#64748b">Inspection & treatment with warranty</span></div>
+<div class="box"><b>🐭 Rodent Control</b><br><span style="font-size:12px;color:#64748b">Solution for rats & mice problems</span></div>
+<div class="box"><b>🦟 Fly & Mosquito</b><br><span style="font-size:12px;color:#64748b">Professional fogging & spray service</span></div>
+<div class="box"><b>🧹 Deep Cleaning</b><br><span style="font-size:12px;color:#64748b">Home, office, shop deep cleaning</span></div>
+</div>
+
+<div class="box" style="text-align:center">
+<b>Why Trust Us?</b><br>
+<span style="font-size:13px;line-height:1.8">
+✅ Same Day Service Mumbai Pune<br>
+✅ Safe & Herbal Chemical<br>
+✅ 5000+ Homes Protected<br>
+✅ 30 Days Warranty<br>
+📞 9664368992
+</span>
+</div>
+</div>
+
+<div class="footer">
+<b style="color:white">BRAND PEST CONTROL & CLEANING SERVICES</b><br>
+Mumbai & Pune Professional Service<br>
+Call: 9664368992 | WhatsApp: 9664368992<br>
+© 2026 Brand Pest Control - No Prices, Best Quote on Call
+</div>
+
+<a href="https://wa.me/919664368992" class="whatsapp">WhatsApp</a>
+<a href="tel:9664368992" class="call">Call</a>
+
+</body>
+</html>
